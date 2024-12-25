@@ -2,7 +2,7 @@
 
 ### Image Coding for Machines with Edge Information Learning <br>
 ### Using Segment Anything
-## (under construction)
+# (under construction)
 
 ---
 
@@ -30,7 +30,7 @@ This is the official implementation of the following paper.<br>
 
 1. Clone this repository from GitHub.
 ```
-git clone https://github.com/final-0/SA-ICM.git
+git clone https://github.com/final-0/SA-ICM-v2.git
 ```
 2. Change the current directory to the "SA-ICM-v2" folder.
 ```
