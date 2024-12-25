@@ -32,7 +32,7 @@ This is the official implementation of the following paper.<br>
 
 | bitrate                              |   xxxxx  |   0.179  |   0.205  |   0.227  |   0.244  |   xxxxx  |
 |:------------------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| **yolo-v5** detection                |   xxxxx  |   xxxxx  |   xxxxx  |   41.9   |   xxxxx  |   xxxxx  |
+| **yolo-v5** detection                |   xxxxx  |   41.1   |   41.6   |   41.9   |   42.2   |   xxxxx  |
 | **mask r-cnn** detection             |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |
 | **mask r-cnn** instance-segmentation |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |
 
