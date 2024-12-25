@@ -22,7 +22,19 @@ This is the official implementation of the following paper.<br>
 [![arXiv](https://img.shields.io/badge/arXiv-2403.04173-b31b1b.svg)](https://arxiv.org/abs/2403.04173)
 
 ---
+<div align="center">
+  
+### Compression Performance
+</div>
+|  lambda                    |   0.02   |   0.03   |   0.04   |   0.05   |   0.06   |   0.07   |
+|:--------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| bitrate                    |   xxxxx  |   0.179  |   0.205  |   0.227  |   0.244  |   xxxxx  |
+|:--------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| yolo-v5<br>detection       |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |
+| mask r-cnn<br>detection    |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |
+| mask r-cnn<br>instance-seg |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |
 
+---
 <div align="center">
   
 ### Installation
