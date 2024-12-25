@@ -62,6 +62,7 @@ For testing only, a GPU with about 11GB of memory is sufficient. (e.g. 1080ti, 2
 
 Download [model weights](https://drive.google.com/drive/folders/1J7rsrEFn20zLginAcyDzY5DdCMbYamgC?usp=drive_link). 
 You can obtain **"sa-icm_[lambda].pth.tar"** from this link. 
+Lambda is a parameter to control the rate.<br>
 These weights can be used by placing them in the "param" folder.<br>
 ``` 
 param ---- param_details.txt
