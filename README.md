@@ -26,15 +26,15 @@ This is the official implementation of the following paper.<br>
   
 ### Compression Performance
 
-|  lambda                     |   0.02   |   0.03   |   0.04   |   0.05   |   0.06   |   0.07   |
-|:---------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| bitrate                     |   xxxxx  |   0.179  |   0.205  |   0.227  |   0.244  |   xxxxx  |
+|  lambda                              |   0.02   |   0.03   |   0.04   |   0.05   |   0.06   |   0.07   |
+|:------------------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| bitrate                              |   xxxxx  |   0.179  |   0.205  |   0.227  |   0.244  |   xxxxx  |
 
-| bitrate                     |   xxxxx  |   0.179  |   0.205  |   0.227  |   0.244  |   xxxxx  |
-|:---------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| **yolo-v5** detection       |   xxxxx  |   xxxxx  |   xxxxx  |   41.9   |   xxxxx  |   xxxxx  |
-| **mask r-cnn** detection    |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |
-| **mask r-cnn** instance-seg |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |
+| bitrate                              |   xxxxx  |   0.179  |   0.205  |   0.227  |   0.244  |   xxxxx  |
+|:------------------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| **yolo-v5** detection                |   xxxxx  |   xxxxx  |   xxxxx  |   41.9   |   xxxxx  |   xxxxx  |
+| **mask r-cnn** detection             |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |
+| **mask r-cnn** instance-segmentation |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |   xxxxx  |
 
 </div>
 
