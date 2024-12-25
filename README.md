@@ -61,60 +61,31 @@ For testing only, a GPU with about 11GB of memory is sufficient. (e.g. 1080ti, 2
 ###  image compression
 
 Download [model weights](https://drive.google.com/drive/folders/1J7rsrEFn20zLginAcyDzY5DdCMbYamgC?usp=drive_link). 
-You can obtain "icm_78.pth.tar" and "icm_93.pth.tar" from this link. 
+You can obtain **"sa-icm_[lambda].pth.tar"** from this link. 
 These weights can be used by placing them in the "param" folder.<br>
 ``` 
 param ---- param_details.txt
-       |-- icm_78.pth.tar
-       |-- icm_93.pth.tar 
+       |-- sa-icm_0.03.pth.tar
+       |-- sa-icm_0.04.pth.tar
+       |-- sa-icm_0.05.pth.tar
+       |-- sa-icm_0.06.pth.tar
+       |-- sa-icm_0.07.pth.tar
 ```
 
 If you want to compress images for "Machines" with , run the following command :
 ``` 
-python3 coding_m.py --checkpoint param/icm_78.pth.tar --input image/input
-```
-``` 
-python3 coding_m.py --checkpoint param/icm_93.pth.tar --input image/input
+python3 coding_m.py --checkpoint param/sa-icm_[lambda].pth.tar --input image/input
 ```
 
 Add “--real” to the command to obtain a bit-stream:
 ``` 
-python3 coding_m.py --checkpoint param/icm_78.pth.tar --input image/input --real
-```
-```
-python3 coding_m.py --checkpoint param/icm_93.pth.tar --input image/input --real
+python3 coding_m.py --checkpoint param/sa-icm_[lambda].pth.tar --input image/input --real
 ```
 
-Compressed images will be saved in the folder "output_icm_78" or "output_icm_93".
+Compressed images will be saved in the folder "output_saicm_[lambda]".
 ``` 
 image ---- input
-       |-- output_icm_78
-       |-- output_icm_93 
+       |-- output_saicm_[lambda]
 ```
-
-###  object detection ([yolov5](https://github.com/ultralytics/yolov5))
-
-Download the [model weights](https://drive.google.com/drive/folders/1UZ4VyDeS4XyvPMbWQzqz4p3cQq3lzOKU?usp=drive_link) trained with the compressed images.
-You can obtain "yolov5_78.pt" and "yolov5_93.pt" from this link. 
-These weights can be used by placing them in the "param" folder.<br>
-``` 
-param ---- param_details.txt
-       |-- icm_78.pth.tar
-       |-- icm_93.pth.tar
-       |-- yolov5_78.pt
-       |-- yolov5_93.pt
-```
-The following commands can then be used to detect objects in compressed images.
-```
-python3 yolov5/detect.py --weights param/yolov5_78.pt --source image/output_icm_78
-```
-```
-python3 yolov5/detect.py --weights param/yolov5_93.pt --source image/output_icm_93
-```
-
-Detection results will be saved in "yolov5/runs/detect/".
-<br>
-<br>
-\* We cite the yolov5 implementation from [ultralytics](https://github.com/ultralytics).
 
 ---
