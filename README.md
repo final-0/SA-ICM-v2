@@ -37,6 +37,7 @@ This is the official implementation of the following paper.<br>
 | **mask r-cnn** [instance-segmentation] |   xxxxx  |   31.2   |   31.8   |   32.1   |   32.5   |
 
 </div>
+metric: mAP 50-95
 
 config
 
