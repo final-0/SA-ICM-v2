@@ -41,7 +41,7 @@ This is the official implementation of the following paper.<br>
 config
 
 - **yolov5**: [ultralytics](https://github.com/ultralytics/yolov5), yolov5m
-- **mask r-cnn**: mmdetection, mask-rcnn_r50_fpn_1x_coco.py
+- **mask r-cnn**: [mmdetection](https://github.com/open-mmlab/mmdetection), mask-rcnn_r50_fpn_1x_coco.py
 
 ---
 <div align="center">
