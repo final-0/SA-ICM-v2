@@ -91,7 +91,6 @@ param ---- param_details.txt
        |-- sa-icm_0.04.pth.tar
        |-- sa-icm_0.05.pth.tar
        |-- sa-icm_0.06.pth.tar
-       |-- sa-icm_0.07.pth.tar
 ```
 
 If you want to compress images for "Machines" with , run the following command :
