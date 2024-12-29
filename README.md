@@ -44,7 +44,7 @@ metric
 config
 - **yolov5**: [ultralytics](https://github.com/ultralytics/yolov5), yolov5m
 - **mask r-cnn**: [mmdetection](https://github.com/open-mmlab/mmdetection), mask-rcnn_r50_fpn_1x_coco.py
-- **solo**: ![Under Construction](https://img.shields.io/badge/status-under--construction-orange)
+- **solo**: 🚧
 
 ---
 <div align="center">
