@@ -35,7 +35,6 @@ This is the official implementation of the following paper.<br>
 | **yolo-v5** [detection]                |   40.3   |   41.1   |   41.6   |   41.9   |   42.2   |
 | **mask r-cnn** [detection]             |    🚧   |   34.7   |   35.2   |   35.6   |   35.9   |
 | **mask r-cnn** [instance-segmentation] |    🚧   |   31.2   |   31.8   |   32.1   |   32.5   |
-| **solo** [detection]                   |    🚧   |   🚧    |   🚧    |   🚧    |   🚧    |
 | **solo** [instance-segmentation]       |    🚧   |   🚧    |   🚧    |   🚧    |   🚧    |
 
 
