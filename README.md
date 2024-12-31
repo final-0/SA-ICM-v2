@@ -94,6 +94,7 @@ Lambda is a parameter to control the rate.<br>
 These weights can be used by placing them in the "param" folder.<br>
 ``` 
 param ---- param_details.txt
+       |-- sa-icm_0.02.pth.tar
        |-- sa-icm_0.03.pth.tar
        |-- sa-icm_0.04.pth.tar
        |-- sa-icm_0.05.pth.tar
