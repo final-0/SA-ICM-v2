@@ -33,6 +33,7 @@ This is the official implementation of the following paper.<br>
 | bitrate                                |   0.149  |   0.179  |   0.205  |   0.227  |   0.244  |
 |:--------------------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | **yolo-v5** [detection]                |   40.3   |   41.1   |   41.6   |   41.9   |   42.2   |
+| **fast r-cnn** [detection]          　 |   🚧　 　|   🚧   |   🚧   |   🚧   |   🚧   |
 | **faster r-cnn** [detection]           |   33.2 　|   34.3   |   35.0   |   35.3   |   35.7   |
 | **mask r-cnn** [detection]             |   33.8   |   34.7   |   35.2   |   35.6   |   35.9   |
 | **mask r-cnn** [instance-segmentation] |   30.4   |   31.2   |   31.8   |   32.1   |   32.5   |
@@ -46,6 +47,7 @@ metric
 
 config
 - **yolov5**: [ultralytics](https://github.com/ultralytics/yolov5), yolov5m
+- **fast r-cnn**: [mmdetection](https://github.com/open-mmlab/mmdetection), fast-rcnn_r50_fpn_1x_coco.py
 - **faster r-cnn**: [mmdetection](https://github.com/open-mmlab/mmdetection), faster-rcnn_r50_fpn_1x_coco.py
 - **mask r-cnn**: [mmdetection](https://github.com/open-mmlab/mmdetection), mask-rcnn_r50_fpn_1x_coco.py
 - **solo**: [mmdetection](https://github.com/open-mmlab/mmdetection), solo_r50_fpn_1x_coco.py
