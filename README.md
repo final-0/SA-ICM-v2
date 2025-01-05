@@ -37,7 +37,7 @@ This is the official implementation of the following paper.<br>
 | **mask r-cnn** [detection]             |   33.8   |   34.7   |   35.2   |   35.6   |   35.9   |
 | **mask r-cnn** [instance-segmentation] |   30.4   |   31.2   |   31.8   |   32.1   |   32.5   |
 | **solo** [instance-segmentation]       |   28.7   |   29.6   |   30.2   |   30.6   |   30.9   |
-
+| **solov2** [instance-segmentation]     |   ----   |   ----   |   ----   |   ----   |   ----   |
 
 </div>
 
@@ -49,7 +49,8 @@ config
 - **faster r-cnn**: [mmdetection](https://github.com/open-mmlab/mmdetection), faster-rcnn_r50_fpn_1x_coco.py
 - **mask r-cnn**: [mmdetection](https://github.com/open-mmlab/mmdetection), mask-rcnn_r50_fpn_1x_coco.py
 - **solo**: [mmdetection](https://github.com/open-mmlab/mmdetection), solo_r50_fpn_1x_coco.py
-
+- **solov2**: [mmdetection](https://github.com/open-mmlab/mmdetection), solov2_r50_fpn_1x_coco.py
+  
 ---
 <div align="center">
   
