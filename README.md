@@ -32,7 +32,7 @@ This is the official implementation of the following paper.<br>
 
 #### Object Detection Accuracy
 
-| bitrate|
+| bitrate |
 | bitrate                                |   0.149  |   0.179  |   0.205  |   0.227  |   0.244  |
 |:--------------------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | **yolo-v5**                            |   40.3   |   41.1   |   41.6   |   41.9   |   42.2   |
