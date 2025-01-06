@@ -32,8 +32,7 @@ This is the official implementation of the following paper.<br>
 
 #### Object Detection Accuracy
 
-| bitrate |
-| bitrate                                |   0.149  |   0.179  |   0.205  |   0.227  |   0.244  |
+| bitrate [bpp]                          |   0.149  |   0.179  |   0.205  |   0.227  |   0.244  |
 |:--------------------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | **yolo-v5**                            |   40.3   |   41.1   |   41.6   |   41.9   |   42.2   |
 | **faster r-cnn**                       |   33.2   |   34.3   |   35.0   |   35.3   |   35.7   |
@@ -41,7 +40,7 @@ This is the official implementation of the following paper.<br>
 
 #### Instance Segmentation Accuracy
 
-| bitrate                                |   0.149  |   0.179  |   0.205  |   0.227  |   0.244  |
+| bitrate [bpp]                          |   0.149  |   0.179  |   0.205  |   0.227  |   0.244  |
 |:--------------------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | **mask r-cnn**                         |   30.4   |   31.2   |   31.8   |   32.1   |   32.5   |
 | **solo**                               |   28.7   |   29.6   |   30.2   |   30.6   |   30.9   |
