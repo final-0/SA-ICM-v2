@@ -28,7 +28,7 @@ This is the official implementation of the following paper.<br>
 
 |  lambda                                |   0.02   |   0.03   |   0.04   |   0.05   |   0.06   |
 |:--------------------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| bitrate                                |   0.149  |   0.179  |   0.205  |   0.227  |   0.244  |
+| bitrate [bpp]                          |   0.149  |   0.179  |   0.205  |   0.227  |   0.244  |
 
 #### Object Detection Accuracy
 
