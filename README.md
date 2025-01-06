@@ -37,7 +37,7 @@ This is the official implementation of the following paper.<br>
 | **mask r-cnn** [detection]             |   33.8   |   34.7   |   35.2   |   35.6   |   35.9   |
 | **mask r-cnn** [instance-segmentation] |   30.4   |   31.2   |   31.8   |   32.1   |   32.5   |
 | **solo** [instance-segmentation]       |   28.7   |   29.6   |   30.2   |   30.6   |   30.9   |
-| **solov2** [instance-segmentation]     |   ----   |   ----   |   ----   |   ----   |   ----   |
+| **solov2** [instance-segmentation]     |   30.9   |   ----   |   ----   |   32.8   |   ----   |
 
 </div>
 
