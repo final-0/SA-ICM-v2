@@ -54,7 +54,7 @@ metric
 config
 - **yolov5**: [ultralytics](https://github.com/ultralytics/yolov5), yolov5m
 - **faster r-cnn**: [mmdetection](https://github.com/open-mmlab/mmdetection), faster-rcnn_r50_fpn_1x_coco.py
-- **mask r-cnn**: [mmdetection](https://github.com/open-mmlab/mmdetection), mask-rcnn_r50_fpn_1x_coco.py
+- **mask r-cnn**: [mmdetection](https://github.com/open-mmlab/mmdetection), mask-rcnn_r101_fpn_1x_coco.py
 - **solo**: [mmdetection](https://github.com/open-mmlab/mmdetection), solo_r50_fpn_1x_coco.py
 - **solo-v2**: [mmdetection](https://github.com/open-mmlab/mmdetection), solov2_r50_fpn_1x_coco.py
   
